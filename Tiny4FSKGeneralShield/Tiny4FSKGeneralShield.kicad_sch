@@ -259,21 +259,24 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Micro_SD_Card_Det1"
+		(symbol "Connector:Micro_SD_Card"
+			(pin_names
+				(offset 1.016)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
-				(at -16.51 17.78 0)
+				(at -16.51 15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Micro_SD_Card_Det1"
-				(at 16.51 17.78 0)
+			(property "Value" "Micro_SD_Card"
+				(at 16.51 15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -282,7 +285,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 52.07 17.78 0)
+				(at 29.21 7.62 0)
 				(hide yes)
 				(effects
 					(font
@@ -290,8 +293,8 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110151630_XKB-Connectivity-XKTF-015-N_C381082.pdf"
-				(at 0 2.54 0)
+			(property "Datasheet" "https://www.we-online.com/components/products/datasheet/693072010801.pdf"
+				(at 0 0 0)
 				(hide yes)
 				(effects
 					(font
@@ -299,7 +302,7 @@
 					)
 				)
 			)
-			(property "Description" "Micro SD Card Socket with one card detection pin"
+			(property "Description" "Micro SD Card Socket"
 				(at 0 0 0)
 				(hide yes)
 				(effects
@@ -326,11 +329,11 @@
 					)
 				)
 			)
-			(symbol "Micro_SD_Card_Det1_0_1"
+			(symbol "Micro_SD_Card_0_1"
 				(polyline
 					(pts
-						(xy -8.89 -8.89) (xy -8.89 11.43) (xy -1.27 11.43) (xy 2.54 15.24) (xy 3.81 15.24) (xy 3.81 13.97)
-						(xy 6.35 13.97) (xy 7.62 15.24) (xy 20.32 15.24) (xy 20.32 -8.89) (xy -8.89 -8.89)
+						(xy -8.89 -11.43) (xy -8.89 8.89) (xy -1.27 8.89) (xy 2.54 12.7) (xy 3.81 12.7) (xy 3.81 11.43)
+						(xy 6.35 11.43) (xy 7.62 12.7) (xy 20.32 12.7) (xy 20.32 -11.43) (xy -8.89 -11.43)
 					)
 					(stroke
 						(width 0.254)
@@ -341,21 +344,10 @@
 					)
 				)
 				(rectangle
-					(start -7.62 10.795)
-					(end -5.08 9.525)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
 					(start -7.62 8.255)
 					(end -5.08 6.985)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -366,7 +358,7 @@
 					(start -7.62 5.715)
 					(end -5.08 4.445)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -377,7 +369,7 @@
 					(start -7.62 3.175)
 					(end -5.08 1.905)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -388,7 +380,7 @@
 					(start -7.62 0.635)
 					(end -5.08 -0.635)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -399,7 +391,7 @@
 					(start -7.62 -1.905)
 					(end -5.08 -3.175)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -410,7 +402,7 @@
 					(start -7.62 -4.445)
 					(end -5.08 -5.715)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -421,7 +413,18 @@
 					(start -7.62 -6.985)
 					(end -5.08 -8.255)
 					(stroke
-						(width 0.254)
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -7.62 -9.525)
+					(end -5.08 -10.795)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -430,7 +433,7 @@
 				)
 				(polyline
 					(pts
-						(xy 16.51 15.24) (xy 16.51 16.51) (xy -19.05 16.51) (xy -19.05 -16.51) (xy 16.51 -16.51) (xy 16.51 -8.89)
+						(xy 16.51 12.7) (xy 16.51 13.97) (xy -19.05 13.97) (xy -19.05 -16.51) (xy 16.51 -16.51) (xy 16.51 -11.43)
 					)
 					(stroke
 						(width 0.254)
@@ -441,9 +444,9 @@
 					)
 				)
 			)
-			(symbol "Micro_SD_Card_Det1_1_1"
+			(symbol "Micro_SD_Card_1_1"
 				(pin bidirectional line
-					(at -22.86 10.16 0)
+					(at -22.86 7.62 0)
 					(length 3.81)
 					(name "DAT2"
 						(effects
@@ -461,7 +464,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -22.86 7.62 0)
+					(at -22.86 5.08 0)
 					(length 3.81)
 					(name "DAT3/CD"
 						(effects
@@ -479,7 +482,7 @@
 					)
 				)
 				(pin input line
-					(at -22.86 5.08 0)
+					(at -22.86 2.54 0)
 					(length 3.81)
 					(name "CMD"
 						(effects
@@ -497,7 +500,7 @@
 					)
 				)
 				(pin power_in line
-					(at -22.86 2.54 0)
+					(at -22.86 0 0)
 					(length 3.81)
 					(name "VDD"
 						(effects
@@ -515,7 +518,7 @@
 					)
 				)
 				(pin input line
-					(at -22.86 0 0)
+					(at -22.86 -2.54 0)
 					(length 3.81)
 					(name "CLK"
 						(effects
@@ -533,7 +536,7 @@
 					)
 				)
 				(pin power_in line
-					(at -22.86 -2.54 0)
+					(at -22.86 -5.08 0)
 					(length 3.81)
 					(name "VSS"
 						(effects
@@ -551,7 +554,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -22.86 -5.08 0)
+					(at -22.86 -7.62 0)
 					(length 3.81)
 					(name "DAT0"
 						(effects
@@ -569,7 +572,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -22.86 -7.62 0)
+					(at -22.86 -10.16 0)
 					(length 3.81)
 					(name "DAT1"
 						(effects
@@ -587,25 +590,7 @@
 					)
 				)
 				(pin passive line
-					(at -22.86 -12.7 0)
-					(length 3.81)
-					(name "DET"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 -12.7 180)
+					(at 20.32 -15.24 180)
 					(length 3.81)
 					(name "SHIELD"
 						(effects
@@ -614,7 +599,7 @@
 							)
 						)
 					)
-					(number "10"
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5818,6 +5803,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 92.71) (xy 234.95 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26ac0359-4194-47b0-8677-2b2f6e52f860")
+	)
+	(wire
+		(pts
 			(xy 199.39 31.75) (xy 200.66 31.75)
 		)
 		(stroke
@@ -5898,6 +5893,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 102.87) (xy 234.95 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3853a612-db80-4d7c-95dd-c9ac160b48c9")
+	)
+	(wire
+		(pts
 			(xy 49.53 53.34) (xy 64.77 53.34)
 		)
 		(stroke
@@ -5938,6 +5943,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 95.25) (xy 236.22 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "423d592b-0d32-4e86-b249-1b21dfe1223d")
+	)
+	(wire
+		(pts
 			(xy 113.03 97.79) (xy 100.33 97.79)
 		)
 		(stroke
@@ -5955,16 +5970,6 @@
 			(type default)
 		)
 		(uuid "42d0206b-fcea-4fc0-b39f-a78bdd09ac25")
-	)
-	(wire
-		(pts
-			(xy 224.79 100.33) (xy 236.22 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44a6697c-d478-4fdb-9828-ff56a819f1d4")
 	)
 	(wire
 		(pts
@@ -6125,6 +6130,16 @@
 			(type default)
 		)
 		(uuid "5b607517-e3d7-4ebd-8a06-a550cd14ec75")
+	)
+	(wire
+		(pts
+			(xy 236.22 90.17) (xy 234.95 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bb6f2fd-51a7-48b9-a8d3-a88d6ed9b4f1")
 	)
 	(wire
 		(pts
@@ -6298,16 +6313,6 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 102.87) (xy 234.95 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79931067-56ed-47c0-bf50-f8705f0389f9")
-	)
-	(wire
-		(pts
 			(xy 35.56 68.58) (xy 38.1 68.58)
 		)
 		(stroke
@@ -6375,6 +6380,16 @@
 			(type default)
 		)
 		(uuid "84f4fd70-44db-4f3b-93ed-f2d28446914a")
+	)
+	(wire
+		(pts
+			(xy 236.22 97.79) (xy 234.95 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86cbc5c4-6103-4476-862d-d9d0d04fed80")
 	)
 	(wire
 		(pts
@@ -6648,26 +6663,6 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 90.17) (xy 234.95 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab5e81ce-7d94-457f-88d9-2afc81ef1012")
-	)
-	(wire
-		(pts
-			(xy 236.22 97.79) (xy 234.95 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad88b3a2-d58f-4c1f-98e4-0ec7c482ebb3")
-	)
-	(wire
-		(pts
 			(xy 199.39 39.37) (xy 200.66 39.37)
 		)
 		(stroke
@@ -6675,16 +6670,6 @@
 			(type default)
 		)
 		(uuid "aeea2f6e-c6c9-4632-aa38-f80c26aefa71")
-	)
-	(wire
-		(pts
-			(xy 224.79 95.25) (xy 236.22 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af2cca05-d37e-46d6-85a4-9eb02be0862a")
 	)
 	(wire
 		(pts
@@ -6725,16 +6710,6 @@
 			(type default)
 		)
 		(uuid "b6752730-ded9-4469-950e-0cd3747eeaa7")
-	)
-	(wire
-		(pts
-			(xy 236.22 92.71) (xy 234.95 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6a8549d-07de-4580-ac51-a76c340e8ff4")
 	)
 	(wire
 		(pts
@@ -7095,6 +7070,16 @@
 			(type default)
 		)
 		(uuid "ea2b5202-ad35-4763-a3cc-8effad5ded8d")
+	)
+	(wire
+		(pts
+			(xy 224.79 100.33) (xy 236.22 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0001524-aea3-4110-9deb-26e4bd17cb35")
 	)
 	(wire
 		(pts
@@ -14241,8 +14226,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Micro_SD_Card_Det1")
-		(at 259.08 97.79 0)
+		(lib_id "Connector:Micro_SD_Card")
+		(at 259.08 95.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14267,8 +14252,8 @@
 				)
 			)
 		)
-		(property "Footprint" "TF-PUSH:TF-PUSH"
-			(at 311.15 80.01 0)
+		(property "Footprint" "Connector_Card:microSD_HC_Hirose_DM3D-SF"
+			(at 288.29 87.63 0)
 			(hide yes)
 			(effects
 				(font
@@ -14276,7 +14261,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110151630_XKB-Connectivity-XKTF-015-N_C381082.pdf"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/693072010801.pdf"
 			(at 259.08 95.25 0)
 			(hide yes)
 			(effects
@@ -14285,8 +14270,8 @@
 				)
 			)
 		)
-		(property "Description" "Micro SD Card Socket with one card detection pin"
-			(at 259.08 97.79 0)
+		(property "Description" "Micro SD Card Socket"
+			(at 259.08 95.25 0)
 			(hide yes)
 			(effects
 				(font
@@ -14294,8 +14279,8 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C393941"
-			(at 259.08 97.79 0)
+		(property "JLCPCB Part #" "C719027"
+			(at 259.08 95.25 0)
 			(hide yes)
 			(effects
 				(font
@@ -14329,9 +14314,6 @@
 		)
 		(pin "9"
 			(uuid "ac376266-d8d6-42f3-8b36-a8e2fbb006f0")
-		)
-		(pin "10"
-			(uuid "68b4c7b0-d659-48c4-a57e-14f27b333f87")
 		)
 		(instances
 			(project ""
