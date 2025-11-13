@@ -6313,7 +6313,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 68.58) (xy 38.1 68.58)
+			(xy 24.13 68.58) (xy 38.1 68.58)
 		)
 		(stroke
 			(width 0)
@@ -9056,7 +9056,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53261-0271_1x02-1MP_P1.25mm_Horizontal"
+		(property "Footprint" "Connector_JSt_Extended:HX20007-2AWB"
 			(at 43.18 121.92 0)
 			(hide yes)
 			(effects
@@ -9083,7 +9083,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C442222"
 			(at 43.18 121.92 0)
 			(hide yes)
 			(effects
@@ -11242,7 +11242,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C160402"
 			(at 43.18 107.95 0)
 			(hide yes)
 			(effects
@@ -11732,7 +11732,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C51940130"
 			(at 43.18 71.12 0)
 			(hide yes)
 			(effects
@@ -12407,7 +12407,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 35.56 68.58 180)
+		(at 24.13 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12416,7 +12416,7 @@
 		(dnp no)
 		(uuid "b3709334-138f-4350-80cc-430e55534263")
 		(property "Reference" "#PWR027"
-			(at 35.56 62.23 0)
+			(at 24.13 74.93 0)
 			(hide yes)
 			(effects
 				(font
@@ -12425,7 +12425,7 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 35.56 64.516 0)
+			(at 24.13 72.644 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12433,7 +12433,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 68.58 0)
+			(at 24.13 68.58 0)
 			(hide yes)
 			(effects
 				(font
@@ -12442,7 +12442,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 68.58 0)
+			(at 24.13 68.58 0)
 			(hide yes)
 			(effects
 				(font
@@ -12451,7 +12451,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 35.56 68.58 0)
+			(at 24.13 68.58 0)
 			(hide yes)
 			(effects
 				(font
@@ -13516,7 +13516,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C160405"
 			(at 43.18 91.44 0)
 			(hide yes)
 			(effects
