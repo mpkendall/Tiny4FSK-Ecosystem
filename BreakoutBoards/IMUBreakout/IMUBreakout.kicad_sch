@@ -2177,10 +2177,6 @@
 		(uuid "ead50d24-9478-4792-9849-eba82f54dc7f")
 	)
 	(no_connect
-		(at 77.47 90.17)
-		(uuid "1790eb23-5731-492f-b38d-ee1c5f5ee624")
-	)
-	(no_connect
 		(at 102.87 90.17)
 		(uuid "6483d14f-ee21-4564-89e0-b95e2d4fc7b6")
 	)
@@ -2351,6 +2347,16 @@
 			(type default)
 		)
 		(uuid "57ead461-4b7b-4982-b4a0-7d544913e963")
+	)
+	(wire
+		(pts
+			(xy 69.85 90.17) (xy 77.47 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a17ae36-1d53-4c90-a29c-14d128eebb5f")
 	)
 	(wire
 		(pts
@@ -2741,6 +2747,71 @@
 			(justify right bottom)
 		)
 		(uuid "f6699f5f-2f56-4910-92eb-be50acd98467")
+	)
+	(symbol
+		(lib_id "power:+1V8")
+		(at 69.85 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0063b44c-a359-408b-8008-0a7892ee38ce")
+		(property "Reference" "#PWR010"
+			(at 69.85 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1V8"
+			(at 69.088 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V8\""
+			(at 69.85 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9fa2f6aa-3b1e-420d-a87b-9c75d08ab364")
+		)
+		(instances
+			(project "IMUBreakout"
+				(path "/a5a53b36-bf72-469a-bd08-093f1cf5b7ac"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R_US")
