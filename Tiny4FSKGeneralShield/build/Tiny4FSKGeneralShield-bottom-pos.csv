@@ -1,0 +1,6 @@
+Ref,Val,Package,PosX,PosY,Rot,Side
+"J3","TinyI2C","PinSocket_1x04_P2.54mm_Vertical",157.727000,-101.740772,180.000000,bottom
+"J4","TinyGPIO","PinSocket_1x09_P2.54mm_Vertical",157.747000,-77.730772,180.000000,bottom
+"J6","TinySPI","PinSocket_1x05_P2.54mm_Vertical",157.727000,-113.175772,180.000000,bottom
+"J7","TinyPwr","PinSocket_1x03_P2.54mm_Vertical",139.641431,-82.602929,0.000000,bottom
+"J8","TinyUSB","PinSocket_1x04_P2.54mm_Vertical",139.597000,-103.360772,180.000000,bottom

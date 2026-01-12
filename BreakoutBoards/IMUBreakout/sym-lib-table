@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "IMUBreakout")(type "KiCad")(uri "${KIPRJMOD}/IMUBreakout.kicad_sym")(options "")(descr ""))
+)

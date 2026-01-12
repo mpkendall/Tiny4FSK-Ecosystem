@@ -1,5 +1,5 @@
 (kicad_sch
-	(version 20251012)
+	(version 20251028)
 	(generator "eeschema")
 	(generator_version "9.99")
 	(uuid "9e87b686-1764-4884-9dae-32d4ab1eb573")
@@ -20,6 +20,8 @@
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -29,6 +31,8 @@
 			)
 			(property "Value" "+3.3V_9"
 				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -37,6 +41,8 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -46,6 +52,8 @@
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -55,6 +63,8 @@
 			)
 			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -64,6 +74,8 @@
 			)
 			(property "ki_keywords" "global power"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -147,6 +159,8 @@
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -156,6 +170,8 @@
 			)
 			(property "Value" "+BATT_1"
 				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -164,6 +180,8 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -173,6 +191,8 @@
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -182,6 +202,8 @@
 			)
 			(property "Description" "Power symbol creates a global label with name \"+BATT\""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -191,6 +213,8 @@
 			)
 			(property "ki_keywords" "global power battery"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -269,6 +293,8 @@
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
 				(at -16.51 15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -277,6 +303,8 @@
 			)
 			(property "Value" "Micro_SD_Card"
 				(at 16.51 15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -286,6 +314,8 @@
 			)
 			(property "Footprint" ""
 				(at 29.21 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -295,6 +325,8 @@
 			)
 			(property "Datasheet" "https://www.we-online.com/components/products/datasheet/693072010801.pdf"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -304,6 +336,8 @@
 			)
 			(property "Description" "Micro SD Card Socket"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -313,6 +347,8 @@
 			)
 			(property "ki_keywords" "connector SD microsd"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -322,6 +358,8 @@
 			)
 			(property "ki_fp_filters" "microSD*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -620,6 +658,8 @@
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
 				(at 0 22.225 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -628,6 +668,8 @@
 			)
 			(property "Value" "USB_C_Receptacle_USB2.0_14P"
 				(at 0 19.685 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -636,6 +678,8 @@
 			)
 			(property "Footprint" ""
 				(at 3.81 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -645,6 +689,8 @@
 			)
 			(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
 				(at 3.81 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -654,6 +700,8 @@
 			)
 			(property "Description" "USB 2.0-only 14P Type-C Receptacle connector"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -663,6 +711,8 @@
 			)
 			(property "ki_keywords" "usb universal serial bus type-C USB2.0"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -672,6 +722,8 @@
 			)
 			(property "ki_fp_filters" "USB*C*Receptacle*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -1261,6 +1313,8 @@
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
 				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1269,6 +1323,8 @@
 			)
 			(property "Value" "Conn_01x02"
 				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1277,6 +1333,8 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -1286,6 +1344,8 @@
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -1295,6 +1355,8 @@
 			)
 			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -1304,6 +1366,8 @@
 			)
 			(property "ki_keywords" "connector"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -1313,6 +1377,8 @@
 			)
 			(property "ki_fp_filters" "Connector*:*_1x??_*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -1404,6 +1470,8 @@
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
 				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1412,6 +1480,8 @@
 			)
 			(property "Value" "Conn_01x03"
 				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1420,6 +1490,8 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -1429,6 +1501,8 @@
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -1438,6 +1512,8 @@
 			)
 			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -1447,6 +1523,8 @@
 			)
 			(property "ki_keywords" "connector"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -1456,6 +1534,8 @@
 			)
 			(property "ki_fp_filters" "Connector*:*_1x??_*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -1576,6 +1656,8 @@
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
 				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1584,6 +1666,8 @@
 			)
 			(property "Value" "Conn_01x04"
 				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1592,6 +1676,8 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -1601,6 +1687,8 @@
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -1610,6 +1698,8 @@
 			)
 			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -1619,6 +1709,8 @@
 			)
 			(property "ki_keywords" "connector"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -1628,6 +1720,8 @@
 			)
 			(property "ki_fp_filters" "Connector*:*_1x??_*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -1777,6 +1871,8 @@
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
 				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1785,6 +1881,8 @@
 			)
 			(property "Value" "Conn_01x05"
 				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1793,6 +1891,8 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -1802,6 +1902,8 @@
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -1811,6 +1913,8 @@
 			)
 			(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -1820,6 +1924,8 @@
 			)
 			(property "ki_keywords" "connector"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -1829,6 +1935,8 @@
 			)
 			(property "ki_fp_filters" "Connector*:*_1x??_*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -2007,6 +2115,8 @@
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
 				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2015,6 +2125,8 @@
 			)
 			(property "Value" "Conn_01x06"
 				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2023,6 +2135,8 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -2032,6 +2146,8 @@
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -2041,6 +2157,8 @@
 			)
 			(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -2050,6 +2168,8 @@
 			)
 			(property "ki_keywords" "connector"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -2059,6 +2179,8 @@
 			)
 			(property "ki_fp_filters" "Connector*:*_1x??_*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -2266,6 +2388,8 @@
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
 				(at 0 12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2274,6 +2398,8 @@
 			)
 			(property "Value" "Conn_01x09"
 				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2282,6 +2408,8 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -2291,6 +2419,8 @@
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -2300,6 +2430,8 @@
 			)
 			(property "Description" "Generic connector, single row, 01x09, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -2309,6 +2441,8 @@
 			)
 			(property "ki_keywords" "connector"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -2318,6 +2452,8 @@
 			)
 			(property "ki_fp_filters" "Connector*:*_1x??_*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -2612,6 +2748,8 @@
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
 				(at 0 20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2620,6 +2758,8 @@
 			)
 			(property "Value" "Conn_01x15"
 				(at 0 -20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2628,6 +2768,8 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -2637,6 +2779,8 @@
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -2646,6 +2790,8 @@
 			)
 			(property "Description" "Generic connector, single row, 01x15, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -2655,6 +2801,8 @@
 			)
 			(property "ki_keywords" "connector"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -2664,6 +2812,8 @@
 			)
 			(property "ki_fp_filters" "Connector*:*_1x??_*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -3134,6 +3284,8 @@
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
 				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3143,6 +3295,8 @@
 			)
 			(property "Value" "C"
 				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3152,6 +3306,8 @@
 			)
 			(property "Footprint" ""
 				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -3161,6 +3317,8 @@
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -3170,6 +3328,8 @@
 			)
 			(property "Description" "Unpolarized capacitor"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -3179,6 +3339,8 @@
 			)
 			(property "ki_keywords" "cap capacitor"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -3188,6 +3350,8 @@
 			)
 			(property "ki_fp_filters" "C_*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -3275,6 +3439,8 @@
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
 				(at 0.254 1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3284,6 +3450,8 @@
 			)
 			(property "Value" "C_Small"
 				(at 0.254 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3293,6 +3461,8 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -3302,6 +3472,8 @@
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -3311,6 +3483,8 @@
 			)
 			(property "Description" "Unpolarized capacitor, small symbol"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -3320,6 +3494,8 @@
 			)
 			(property "ki_keywords" "capacitor cap"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -3329,6 +3505,8 @@
 			)
 			(property "ki_fp_filters" "C_*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -3416,6 +3594,8 @@
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "L"
 				(at -1.27 0 90)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3424,6 +3604,8 @@
 			)
 			(property "Value" "L"
 				(at 1.905 0 90)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3432,6 +3614,8 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -3441,6 +3625,8 @@
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -3450,6 +3636,8 @@
 			)
 			(property "Description" "Inductor"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -3459,6 +3647,8 @@
 			)
 			(property "ki_keywords" "inductor choke coil reactor magnetic"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -3468,6 +3658,8 @@
 			)
 			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -3579,6 +3771,8 @@
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
 				(at 0.762 0.508 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3588,6 +3782,8 @@
 			)
 			(property "Value" "R_Small_US"
 				(at 0.762 -1.016 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3597,6 +3793,8 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -3606,6 +3804,8 @@
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -3615,6 +3815,8 @@
 			)
 			(property "Description" "Resistor, small US symbol"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -3624,6 +3826,8 @@
 			)
 			(property "ki_keywords" "r resistor"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -3633,6 +3837,8 @@
 			)
 			(property "ki_fp_filters" "R_*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -3717,6 +3923,8 @@
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
 				(at 2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3725,6 +3933,8 @@
 			)
 			(property "Value" "R_US"
 				(at -2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3733,6 +3943,8 @@
 			)
 			(property "Footprint" ""
 				(at 1.016 -0.254 90)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -3742,6 +3954,8 @@
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -3751,6 +3965,8 @@
 			)
 			(property "Description" "Resistor, US symbol"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -3760,6 +3976,8 @@
 			)
 			(property "ki_keywords" "R res resistor"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -3769,6 +3987,8 @@
 			)
 			(property "ki_fp_filters" "R_*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -3893,6 +4113,8 @@
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -3902,6 +4124,8 @@
 			)
 			(property "Value" "Earth_2"
 				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -3911,6 +4135,8 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -3920,6 +4146,8 @@
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -3929,6 +4157,8 @@
 			)
 			(property "Description" "Power symbol creates a global label with name \"Earth\""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -3938,6 +4168,8 @@
 			)
 			(property "ki_keywords" "global ground gnd"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -4025,6 +4257,8 @@
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
 				(at -6.35 13.97 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4033,6 +4267,8 @@
 			)
 			(property "Value" "FXMA108"
 				(at 7.62 13.97 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4041,6 +4277,8 @@
 			)
 			(property "Footprint" "Package_DFN_QFN:WQFN-20-1EP_2.5x4.5mm_P0.5mm_EP1x2.9mm"
 				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -4050,6 +4288,8 @@
 			)
 			(property "Datasheet" "http://www.onsemi.com/pub/Collateral/FXMA108-D.pdf"
 				(at 0 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -4059,6 +4299,8 @@
 			)
 			(property "Description" "Dual-Supply, 8-Bit Signal Translator with Configurable Voltage Supplies and Signals Levels, 3-State Outputs and Auto Direction Sensing, WQFN-20"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -4068,6 +4310,8 @@
 			)
 			(property "ki_keywords" "Level shifter translator bidirectional"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -4077,6 +4321,8 @@
 			)
 			(property "ki_fp_filters" "WQFN*1EP*2.5x4.5mm*P0.5mm*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -4485,6 +4731,8 @@
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
 				(at -7.62 13.97 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4494,6 +4742,8 @@
 			)
 			(property "Value" "TPS63060"
 				(at 2.54 13.97 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4502,6 +4752,8 @@
 			)
 			(property "Footprint" "Package_SON:Texas_S-PWSON-N10_ThermalVias"
 				(at 0 -16.51 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -4511,6 +4763,8 @@
 			)
 			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tps63060.pdf"
 				(at 0 -19.05 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -4520,6 +4774,8 @@
 			)
 			(property "Description" "Buck-Boost Converter, 2.5-12V Input Voltage, 2-A Switch Current, Adjustable 2.5-8V Output Voltage, S-PWSON-N10"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -4529,6 +4785,8 @@
 			)
 			(property "ki_keywords" "Buck-Boost adjustable converter"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -4538,6 +4796,8 @@
 			)
 			(property "ki_fp_filters" "Texas*S*PWSON*N10*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -4775,6 +5035,8 @@
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -4784,6 +5046,8 @@
 			)
 			(property "Value" "+3.3V"
 				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4792,6 +5056,8 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -4801,6 +5067,8 @@
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -4810,6 +5078,8 @@
 			)
 			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -4819,6 +5089,8 @@
 			)
 			(property "ki_keywords" "global power"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -4901,6 +5173,8 @@
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -4910,6 +5184,8 @@
 			)
 			(property "Value" "+5V"
 				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4918,6 +5194,8 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -4927,6 +5205,8 @@
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -4936,6 +5216,8 @@
 			)
 			(property "Description" "Power symbol creates a global label with name \"+5V\""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -4945,6 +5227,8 @@
 			)
 			(property "ki_keywords" "global power"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -5027,6 +5311,8 @@
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -5036,6 +5322,8 @@
 			)
 			(property "Value" "Earth"
 				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5044,6 +5332,8 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -5053,6 +5343,8 @@
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -5062,6 +5354,8 @@
 			)
 			(property "Description" "Power symbol creates a global label with name \"Earth\""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -5071,6 +5365,8 @@
 			)
 			(property "ki_keywords" "global ground gnd"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -5165,6 +5461,8 @@
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -5174,6 +5472,8 @@
 			)
 			(property "Value" "GNDA"
 				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5182,6 +5482,8 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -5191,6 +5493,8 @@
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -5200,6 +5504,8 @@
 			)
 			(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -5209,6 +5515,8 @@
 			)
 			(property "ki_keywords" "global power"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -7155,6 +7463,8 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 168.3876 43.18 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7177,6 +7487,8 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 228.2153 97.79 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7199,6 +7511,8 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 63.1153 115.57 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7221,6 +7535,8 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 110.4513 120.65 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7243,6 +7559,8 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 190.5387 39.37 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7265,6 +7583,8 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 62.2686 113.03 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7287,6 +7607,8 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 63.2967 102.87 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7309,6 +7631,8 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 263.2142 127 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7331,6 +7655,8 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 260.3886 45.72 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7353,6 +7679,8 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 265.2267 35.56 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7375,6 +7703,8 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 30.2767 73.66 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7397,6 +7727,8 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 30.1558 99.06 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7419,6 +7751,8 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 168.3876 40.64 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7441,6 +7775,8 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 109.0604 130.81 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7463,6 +7799,8 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 263.8358 20.32 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7485,6 +7823,8 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 30.3372 76.2 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7507,6 +7847,8 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 30.2767 91.44 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7529,6 +7871,8 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 30.3372 93.98 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7551,6 +7895,8 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 227.3686 102.87 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7573,6 +7919,8 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 209.7533 68.58 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7595,6 +7943,8 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 63.1758 123.19 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7617,6 +7967,8 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 110.2699 105.41 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7639,6 +7991,8 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 190.5387 44.45 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7661,6 +8015,8 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 225.9004 60.96 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7683,6 +8039,8 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 263.8358 25.4 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7705,6 +8063,8 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 228.9242 41.91 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7727,6 +8087,8 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 228.9242 44.45 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7749,6 +8111,8 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 228.9242 39.37 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7771,6 +8135,8 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 228.9847 36.83 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7793,6 +8159,8 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 228.7428 29.21 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7815,6 +8183,8 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 94.1833 86.36 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7837,6 +8207,8 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 245.0882 127 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7859,6 +8231,8 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 260.3886 43.18 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7881,6 +8255,8 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 189.6315 34.29 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7903,6 +8279,8 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 223.7233 68.58 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7925,6 +8303,8 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 262.1424 59.69 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7947,6 +8327,8 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 64.5667 133.35 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7969,6 +8351,8 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 211.9304 60.96 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7991,6 +8375,8 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 30.1558 96.52 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8013,6 +8399,8 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 261.2353 48.26 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8035,6 +8423,8 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 63.1758 125.73 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8057,6 +8447,8 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 238.6172 22.86 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8079,6 +8471,8 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 110.4513 125.73 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8101,6 +8495,8 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 263.8358 15.24 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8123,6 +8519,8 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 226.0382 90.17 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8145,6 +8543,8 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 189.6315 31.75 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8167,6 +8567,8 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 94.1228 83.82 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8189,6 +8591,8 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 110.4513 123.19 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8211,6 +8615,8 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 238.5567 20.32 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8233,6 +8639,8 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 190.7201 29.21 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8255,6 +8663,8 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 229.8314 34.29 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8277,6 +8687,8 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 228.8033 26.67 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8299,6 +8711,8 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 109.0604 133.35 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8321,6 +8735,8 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 110.5118 115.57 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8343,6 +8759,8 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 262.1424 57.15 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8365,6 +8783,8 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 190.5387 41.91 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8387,6 +8807,8 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 110.3304 102.87 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8409,6 +8831,8 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 64.5667 130.81 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8431,6 +8855,8 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 63.1758 120.65 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8453,6 +8879,8 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 63.3572 105.41 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8475,6 +8903,8 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 111.3585 113.03 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8497,6 +8927,8 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 190.4782 36.83 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8519,6 +8951,8 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 265.2267 30.48 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8541,6 +8975,8 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 31.5467 110.49 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8563,6 +8999,8 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 111.3585 110.49 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8585,6 +9023,8 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 190.6596 26.67 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8607,6 +9047,8 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 229.8314 31.75 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8629,6 +9071,8 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 62.2686 110.49 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8651,6 +9095,8 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 227.3686 92.71 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8672,6 +9118,8 @@
 		(uuid "01ed7e01-8022-4cd4-a0bd-99064dbcbf5c")
 		(property "Reference" "C3"
 			(at 90.17 45.7199 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8681,6 +9129,8 @@
 		)
 		(property "Value" "100nF"
 			(at 90.17 48.2599 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8691,6 +9141,8 @@
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 87.3252 50.8 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8700,6 +9152,8 @@
 		(property "Datasheet" ""
 			(at 86.36 46.99 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8709,6 +9163,8 @@
 		(property "Description" "Unpolarized capacitor"
 			(at 86.36 46.99 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8718,6 +9174,8 @@
 		(property "JLCPCB Part #" "C1525"
 			(at 86.36 46.99 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8753,6 +9211,8 @@
 		(property "Reference" "#PWR043"
 			(at 77.47 64.77 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8761,6 +9221,8 @@
 		)
 		(property "Value" "+5V"
 			(at 69.85 64.7699 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8771,6 +9233,8 @@
 		(property "Footprint" ""
 			(at 73.66 64.77 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8780,6 +9244,8 @@
 		(property "Datasheet" ""
 			(at 73.66 64.77 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8789,6 +9255,8 @@
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 73.66 64.77 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8820,6 +9288,8 @@
 		(uuid "0fe81e34-f190-4136-8fd1-5efa896eb67f")
 		(property "Reference" "J8"
 			(at 276.86 59.6899 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8829,6 +9299,8 @@
 		)
 		(property "Value" "TinyUSB"
 			(at 276.86 62.2299 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8839,6 +9311,8 @@
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
 			(at 274.32 59.69 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8848,6 +9322,8 @@
 		(property "Datasheet" ""
 			(at 274.32 59.69 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8857,6 +9333,8 @@
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 274.32 59.69 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8866,6 +9344,8 @@
 		(property "JLCPCB Part #" ""
 			(at 274.32 59.69 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8907,6 +9387,8 @@
 		(property "Reference" "#PWR035"
 			(at 115.57 31.75 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8915,6 +9397,8 @@
 		)
 		(property "Value" "+5V"
 			(at 115.57 22.86 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8924,6 +9408,8 @@
 		(property "Footprint" ""
 			(at 115.57 27.94 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8933,6 +9419,8 @@
 		(property "Datasheet" ""
 			(at 115.57 27.94 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8942,6 +9430,8 @@
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 115.57 27.94 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8974,6 +9464,8 @@
 		(property "Reference" "#PWR016"
 			(at 146.05 69.85 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8982,6 +9474,8 @@
 		)
 		(property "Value" "Earth"
 			(at 146.05 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8991,6 +9485,8 @@
 		(property "Footprint" ""
 			(at 146.05 63.5 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9000,6 +9496,8 @@
 		(property "Datasheet" ""
 			(at 146.05 63.5 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9009,6 +9507,8 @@
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
 			(at 146.05 63.5 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9040,6 +9540,8 @@
 		(uuid "217f8ac3-572e-4a3e-ae17-1763faaf7de4")
 		(property "Reference" "J9"
 			(at 45.72 121.9199 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9049,6 +9551,8 @@
 		)
 		(property "Value" "Ext.Pwr"
 			(at 45.72 124.4599 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9059,6 +9563,8 @@
 		(property "Footprint" "Connector_JSt_Extended:HX20007-2AWB"
 			(at 43.18 121.92 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9068,6 +9574,8 @@
 		(property "Datasheet" ""
 			(at 43.18 121.92 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9077,6 +9585,8 @@
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 43.18 121.92 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9086,6 +9596,8 @@
 		(property "JLCPCB Part #" "C442222"
 			(at 43.18 121.92 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9121,6 +9633,8 @@
 		(property "Reference" "#PWR045"
 			(at 69.85 142.24 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9129,6 +9643,8 @@
 		)
 		(property "Value" "GNDA"
 			(at 69.85 140.97 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9138,6 +9654,8 @@
 		(property "Footprint" ""
 			(at 69.85 135.89 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9147,6 +9665,8 @@
 		(property "Datasheet" ""
 			(at 69.85 135.89 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9156,6 +9676,8 @@
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
 			(at 69.85 135.89 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9187,6 +9709,8 @@
 		(property "Reference" "#PWR037"
 			(at 100.33 85.09 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9195,6 +9719,8 @@
 		)
 		(property "Value" "Earth"
 			(at 100.584 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9204,6 +9730,8 @@
 		(property "Footprint" ""
 			(at 100.33 78.74 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9213,6 +9741,8 @@
 		(property "Datasheet" ""
 			(at 100.33 78.74 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9222,6 +9752,8 @@
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
 			(at 100.33 78.74 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9254,6 +9786,8 @@
 		(property "Reference" "#PWR02"
 			(at 224.79 106.68 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9262,6 +9796,8 @@
 		)
 		(property "Value" "Earth"
 			(at 224.79 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9271,6 +9807,8 @@
 		(property "Footprint" ""
 			(at 224.79 100.33 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9280,6 +9818,8 @@
 		(property "Datasheet" ""
 			(at 224.79 100.33 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9289,6 +9829,8 @@
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
 			(at 224.79 100.33 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9321,6 +9863,8 @@
 		(property "Reference" "#PWR031"
 			(at 67.31 59.69 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9329,6 +9873,8 @@
 		)
 		(property "Value" "Earth"
 			(at 67.31 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9338,6 +9884,8 @@
 		(property "Footprint" ""
 			(at 67.31 53.34 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9347,6 +9895,8 @@
 		(property "Datasheet" ""
 			(at 67.31 53.34 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9356,6 +9906,8 @@
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
 			(at 67.31 53.34 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9387,6 +9939,8 @@
 		(property "Reference" "#PWR044"
 			(at 264.16 39.37 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9395,6 +9949,8 @@
 		)
 		(property "Value" "GNDA"
 			(at 262.89 31.496 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9404,6 +9960,8 @@
 		(property "Footprint" ""
 			(at 264.16 33.02 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9413,6 +9971,8 @@
 		(property "Datasheet" ""
 			(at 264.16 33.02 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9422,6 +9982,8 @@
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
 			(at 264.16 33.02 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9453,6 +10015,8 @@
 		(uuid "2e6b49e6-1161-4ce5-bb1e-d2f015c1cfa5")
 		(property "Reference" "C5"
 			(at 52.07 29.2162 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9462,6 +10026,8 @@
 		)
 		(property "Value" "10uF"
 			(at 52.07 31.7562 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9472,6 +10038,8 @@
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 49.53 30.48 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9481,6 +10049,8 @@
 		(property "Datasheet" ""
 			(at 49.53 30.48 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9490,6 +10060,8 @@
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 49.53 30.48 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9499,6 +10071,8 @@
 		(property "JLCPCB Part #" "C15525"
 			(at 49.53 30.48 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9536,6 +10110,8 @@
 		(property "Reference" "#PWR012"
 			(at 271.78 62.23 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9544,6 +10120,8 @@
 		)
 		(property "Value" "+3.3V"
 			(at 264.16 62.2299 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9554,6 +10132,8 @@
 		(property "Footprint" ""
 			(at 267.97 62.23 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9563,6 +10143,8 @@
 		(property "Datasheet" ""
 			(at 267.97 62.23 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9572,6 +10154,8 @@
 		(property "Description" ""
 			(at 267.97 62.23 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9603,6 +10187,8 @@
 		(property "Reference" "#PWR033"
 			(at 93.98 46.99 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9611,6 +10197,8 @@
 		)
 		(property "Value" "Earth"
 			(at 89.916 42.164 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9620,6 +10208,8 @@
 		(property "Footprint" ""
 			(at 93.98 40.64 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9629,6 +10219,8 @@
 		(property "Datasheet" ""
 			(at 93.98 40.64 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9638,6 +10230,8 @@
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
 			(at 93.98 40.64 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9670,6 +10264,8 @@
 		(property "Reference" "#PWR018"
 			(at 39.37 71.12 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9678,6 +10274,8 @@
 		)
 		(property "Value" "+3.3V"
 			(at 26.924 71.12 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9688,6 +10286,8 @@
 		(property "Footprint" ""
 			(at 35.56 71.12 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9697,6 +10297,8 @@
 		(property "Datasheet" ""
 			(at 35.56 71.12 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9706,6 +10308,8 @@
 		(property "Description" ""
 			(at 35.56 71.12 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9736,6 +10340,8 @@
 		(uuid "3c5a542c-f13c-4e3a-a67d-01941b36dc52")
 		(property "Reference" "R7"
 			(at 80.264 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9745,6 +10351,8 @@
 		)
 		(property "Value" "1M"
 			(at 80.264 33.02 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9755,6 +10363,8 @@
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 79.756 32.004 90)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9764,6 +10374,8 @@
 		(property "Datasheet" ""
 			(at 78.74 31.75 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9773,6 +10385,8 @@
 		(property "Description" "Resistor, US symbol"
 			(at 78.74 31.75 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9782,6 +10396,8 @@
 		(property "JLCPCB Part #" "C26083"
 			(at 78.74 31.75 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9815,6 +10431,8 @@
 		(uuid "3e0425f7-848b-458c-b7a6-d063c09c1505")
 		(property "Reference" "C8"
 			(at 101.854 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9824,6 +10442,8 @@
 		)
 		(property "Value" "22uF"
 			(at 101.854 33.02 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9834,6 +10454,8 @@
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 110.1852 35.56 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9843,6 +10465,8 @@
 		(property "Datasheet" ""
 			(at 109.22 31.75 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9852,6 +10476,8 @@
 		(property "Description" "Unpolarized capacitor"
 			(at 109.22 31.75 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9861,6 +10487,8 @@
 		(property "JLCPCB Part #" "C59461"
 			(at 109.22 31.75 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9894,6 +10522,8 @@
 		(uuid "45eab9ba-4bf1-4bcc-87ed-9e378d0c3ee7")
 		(property "Reference" "R9"
 			(at 80.01 37.084 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9903,6 +10533,8 @@
 		)
 		(property "Value" "111kR"
 			(at 80.01 39.624 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9913,6 +10545,8 @@
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 78.74 38.1 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9922,6 +10556,8 @@
 		(property "Datasheet" ""
 			(at 78.74 38.1 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9931,6 +10567,8 @@
 		(property "Description" "Resistor, small US symbol"
 			(at 78.74 38.1 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9940,6 +10578,8 @@
 		(property "JLCPCB Part #" "C865144"
 			(at 78.74 38.1 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9974,6 +10614,8 @@
 		(property "Reference" "#PWR034"
 			(at 115.57 41.91 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9982,6 +10624,8 @@
 		)
 		(property "Value" "Earth"
 			(at 111.506 37.084 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9991,6 +10635,8 @@
 		(property "Footprint" ""
 			(at 115.57 35.56 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10000,6 +10646,8 @@
 		(property "Datasheet" ""
 			(at 115.57 35.56 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10009,6 +10657,8 @@
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
 			(at 115.57 35.56 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10040,6 +10690,8 @@
 		(property "Reference" "#PWR023"
 			(at 200.66 83.82 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10048,6 +10700,8 @@
 		)
 		(property "Value" "Earth"
 			(at 200.66 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10057,6 +10711,8 @@
 		(property "Footprint" ""
 			(at 200.66 77.47 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10066,6 +10722,8 @@
 		(property "Datasheet" ""
 			(at 200.66 77.47 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10075,6 +10733,8 @@
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
 			(at 200.66 77.47 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10107,6 +10767,8 @@
 		(property "Reference" "#PWR032"
 			(at 86.36 58.42 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10115,6 +10777,8 @@
 		)
 		(property "Value" "Earth"
 			(at 86.36 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10124,6 +10788,8 @@
 		(property "Footprint" ""
 			(at 86.36 52.07 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10133,6 +10799,8 @@
 		(property "Datasheet" ""
 			(at 86.36 52.07 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10142,6 +10810,8 @@
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
 			(at 86.36 52.07 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10173,6 +10843,8 @@
 		(uuid "568ed974-d16d-4cbe-8320-f085a52beb88")
 		(property "Reference" "J2"
 			(at 146.05 17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10181,6 +10853,8 @@
 		)
 		(property "Value" "USB_C_Receptacle_USB2.0_14P"
 			(at 146.05 20.32 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10190,6 +10864,8 @@
 		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 			(at 149.86 40.64 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10199,6 +10875,8 @@
 		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
 			(at 149.86 40.64 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10208,6 +10886,8 @@
 		(property "Description" "USB 2.0-only 14P Type-C Receptacle connector"
 			(at 146.05 40.64 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10217,6 +10897,8 @@
 		(property "JLCPCB Part #" "C2760486"
 			(at 146.05 40.64 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10290,6 +10972,8 @@
 		(property "Reference" "#PWR022"
 			(at 198.12 27.94 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10298,6 +10982,8 @@
 		)
 		(property "Value" "Earth"
 			(at 193.802 23.114 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10307,6 +10993,8 @@
 		(property "Footprint" ""
 			(at 198.12 21.59 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10316,6 +11004,8 @@
 		(property "Datasheet" ""
 			(at 198.12 21.59 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10325,6 +11015,8 @@
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
 			(at 198.12 21.59 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10356,6 +11048,8 @@
 		(uuid "671d40bf-c153-4849-aa42-40de00738d58")
 		(property "Reference" "J4"
 			(at 279.4 24.1299 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10365,6 +11059,8 @@
 		)
 		(property "Value" "TinyGPIO"
 			(at 279.4 26.6699 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10375,6 +11071,8 @@
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x09_P2.54mm_Vertical"
 			(at 276.86 25.4 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10384,6 +11082,8 @@
 		(property "Datasheet" ""
 			(at 276.86 25.4 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10393,6 +11093,8 @@
 		(property "Description" "Generic connector, single row, 01x09, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 276.86 25.4 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10402,6 +11104,8 @@
 		(property "JLCPCB Part #" ""
 			(at 276.86 25.4 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10456,6 +11160,8 @@
 		(uuid "67994050-1a3b-4d37-be92-fee375a7a0e2")
 		(property "Reference" "R1"
 			(at 163.83 28.194 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10464,6 +11170,8 @@
 		)
 		(property "Value" "5.1kR"
 			(at 168.148 28.194 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10473,6 +11181,8 @@
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 166.624 29.464 90)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10482,6 +11192,8 @@
 		(property "Datasheet" ""
 			(at 166.37 30.48 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10491,6 +11203,8 @@
 		(property "Description" "Resistor, US symbol"
 			(at 166.37 30.48 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10500,6 +11214,8 @@
 		(property "JLCPCB Part #" "C25905"
 			(at 166.37 30.48 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10534,6 +11250,8 @@
 		(uuid "6a67a2d9-066f-4897-aa71-b03d4a8c913d")
 		(property "Reference" "U3"
 			(at 67.31 20.32 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10542,6 +11260,8 @@
 		)
 		(property "Value" "TPS63060"
 			(at 67.31 22.86 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10551,6 +11271,8 @@
 		(property "Footprint" "Package_SON:Texas_S-PWSON-N10_ThermalVias"
 			(at 67.31 54.61 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10560,6 +11282,8 @@
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tps63060.pdf"
 			(at 67.31 57.15 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10569,6 +11293,8 @@
 		(property "Description" "Buck-Boost Converter, 2.5-12V Input Voltage, 2-A Switch Current, Adjustable 2.5-8V Output Voltage, S-PWSON-N10"
 			(at 67.31 38.1 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10578,6 +11304,8 @@
 		(property "JLCPCB Part #" "C48567"
 			(at 67.31 38.1 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10640,6 +11368,8 @@
 		(property "Reference" "#PWR06"
 			(at 213.36 21.59 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10648,6 +11378,8 @@
 		)
 		(property "Value" "+3.3V"
 			(at 215.392 14.986 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10658,6 +11390,8 @@
 		(property "Footprint" ""
 			(at 213.36 17.78 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10667,6 +11401,8 @@
 		(property "Datasheet" ""
 			(at 213.36 17.78 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10676,6 +11412,8 @@
 		(property "Description" ""
 			(at 213.36 17.78 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10707,6 +11445,8 @@
 		(uuid "71b47c7f-bbd4-4359-8d09-d88423baddfd")
 		(property "Reference" "J15"
 			(at 82.55 66.0399 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10716,6 +11456,8 @@
 		)
 		(property "Value" "Int.Pwr"
 			(at 82.55 68.5799 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10726,6 +11468,8 @@
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 80.01 67.31 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10735,6 +11479,8 @@
 		(property "Datasheet" ""
 			(at 80.01 67.31 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10744,6 +11490,8 @@
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 80.01 67.31 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10753,6 +11501,8 @@
 		(property "JLCPCB Part #" ""
 			(at 80.01 67.31 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10793,6 +11543,8 @@
 		(property "Reference" "#PWR04"
 			(at 245.11 31.75 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10802,6 +11554,8 @@
 		(property "Value" "Earth"
 			(at 245.11 29.21 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10811,6 +11565,8 @@
 		(property "Footprint" ""
 			(at 245.11 25.4 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10820,6 +11576,8 @@
 		(property "Datasheet" ""
 			(at 245.11 25.4 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10829,6 +11587,8 @@
 		(property "Description" ""
 			(at 245.11 25.4 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10859,6 +11619,8 @@
 		(uuid "74ea9706-2c14-4c8f-bf05-ff42d9681d30")
 		(property "Reference" "U1"
 			(at 213.868 51.308 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10868,6 +11630,8 @@
 		)
 		(property "Value" "FXMA108"
 			(at 213.868 53.848 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10878,6 +11642,8 @@
 		(property "Footprint" "Package_DFN_QFN:WQFN-20-1EP_2.5x4.5mm_P0.5mm_EP1x2.9mm"
 			(at 210.82 52.07 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10887,6 +11653,8 @@
 		(property "Datasheet" "http://www.onsemi.com/pub/Collateral/FXMA108-D.pdf"
 			(at 210.82 33.02 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10896,6 +11664,8 @@
 		(property "Description" "Dual-Supply, 8-Bit Signal Translator with Configurable Voltage Supplies and Signals Levels, 3-State Outputs and Auto Direction Sensing, WQFN-20"
 			(at 210.82 34.29 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10905,6 +11675,8 @@
 		(property "JLCPCB Part #" "C891320"
 			(at 210.82 34.29 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10996,6 +11768,8 @@
 		(property "Reference" "#PWR025"
 			(at 208.28 21.59 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11004,6 +11778,8 @@
 		)
 		(property "Value" "+5V"
 			(at 206.248 17.272 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11013,6 +11789,8 @@
 		(property "Footprint" ""
 			(at 208.28 17.78 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11022,6 +11800,8 @@
 		(property "Datasheet" ""
 			(at 208.28 17.78 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11031,6 +11811,8 @@
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 208.28 17.78 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11063,6 +11845,8 @@
 		(property "Reference" "#PWR015"
 			(at 172.72 39.37 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11071,6 +11855,8 @@
 		)
 		(property "Value" "Earth"
 			(at 172.72 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11080,6 +11866,8 @@
 		(property "Footprint" ""
 			(at 172.72 33.02 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11089,6 +11877,8 @@
 		(property "Datasheet" ""
 			(at 172.72 33.02 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11098,6 +11888,8 @@
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
 			(at 172.72 33.02 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11132,6 +11924,8 @@
 		(property "Reference" "#PWR08"
 			(at 267.97 57.15 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11141,6 +11935,8 @@
 		(property "Value" "Earth"
 			(at 267.97 54.61 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11150,6 +11946,8 @@
 		(property "Footprint" ""
 			(at 267.97 50.8 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11159,6 +11957,8 @@
 		(property "Datasheet" ""
 			(at 267.97 50.8 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11168,6 +11968,8 @@
 		(property "Description" ""
 			(at 267.97 50.8 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11199,6 +12001,8 @@
 		(uuid "84b7dc34-2c82-4216-b1ee-bc783be7a1fb")
 		(property "Reference" "J11"
 			(at 45.72 107.9499 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11208,6 +12012,8 @@
 		)
 		(property "Value" "Ext.Photo"
 			(at 45.72 110.4899 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11218,6 +12024,8 @@
 		(property "Footprint" "Connector_JST:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal"
 			(at 43.18 107.95 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11227,6 +12035,8 @@
 		(property "Datasheet" ""
 			(at 43.18 107.95 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11236,6 +12046,8 @@
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 43.18 107.95 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11245,6 +12057,8 @@
 		(property "JLCPCB Part #" "C160402"
 			(at 43.18 107.95 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11280,6 +12094,8 @@
 		(property "Reference" "#PWR021"
 			(at 280.67 116.84 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11288,6 +12104,8 @@
 		)
 		(property "Value" "Earth"
 			(at 280.67 115.57 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11297,6 +12115,8 @@
 		(property "Footprint" ""
 			(at 280.67 110.49 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11306,6 +12126,8 @@
 		(property "Datasheet" ""
 			(at 280.67 110.49 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11315,6 +12137,8 @@
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
 			(at 280.67 110.49 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11346,6 +12170,8 @@
 		(uuid "852707f8-44e7-4f3f-930a-87ef4b2ba1d4")
 		(property "Reference" "C4"
 			(at 88.9 36.8362 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11355,6 +12181,8 @@
 		)
 		(property "Value" "10pF"
 			(at 88.9 39.3762 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11365,6 +12193,8 @@
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 86.36 38.1 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11374,6 +12204,8 @@
 		(property "Datasheet" ""
 			(at 86.36 38.1 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11383,6 +12215,8 @@
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 86.36 38.1 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11392,6 +12226,8 @@
 		(property "JLCPCB Part #" "C32949"
 			(at 86.36 38.1 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11425,6 +12261,8 @@
 		(uuid "885f78eb-2d16-440b-98f0-fccb84d28535")
 		(property "Reference" "R2"
 			(at 163.83 35.56 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11433,6 +12271,8 @@
 		)
 		(property "Value" "5.1kR"
 			(at 168.402 35.56 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11442,6 +12282,8 @@
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 166.624 32.004 90)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11451,6 +12293,8 @@
 		(property "Datasheet" ""
 			(at 166.37 33.02 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11460,6 +12304,8 @@
 		(property "Description" "Resistor, US symbol"
 			(at 166.37 33.02 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11469,6 +12315,8 @@
 		(property "JLCPCB Part #" "C25905"
 			(at 166.37 33.02 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11503,6 +12351,8 @@
 		(uuid "8fe8bc68-0444-47ce-8755-b48bc45dc03d")
 		(property "Reference" "J17"
 			(at 92.71 116.8399 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11512,6 +12362,8 @@
 		)
 		(property "Value" "5V IO"
 			(at 92.71 119.3799 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11522,6 +12374,8 @@
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x15_P2.54mm_Vertical"
 			(at 95.25 118.11 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11531,6 +12385,8 @@
 		(property "Datasheet" ""
 			(at 95.25 118.11 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11540,6 +12396,8 @@
 		(property "Description" "Generic connector, single row, 01x15, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 95.25 118.11 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11549,6 +12407,8 @@
 		(property "JLCPCB Part #" ""
 			(at 95.25 118.11 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11622,6 +12482,8 @@
 		(property "Reference" "#PWR028"
 			(at 25.4 127 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11630,6 +12492,8 @@
 		)
 		(property "Value" "Earth"
 			(at 27.94 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11640,6 +12504,8 @@
 		(property "Footprint" ""
 			(at 25.4 120.65 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11649,6 +12515,8 @@
 		(property "Datasheet" ""
 			(at 25.4 120.65 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11658,6 +12526,8 @@
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
 			(at 25.4 120.65 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11689,6 +12559,8 @@
 		(uuid "93dd9218-6ee4-4739-b431-09576a2ea0b5")
 		(property "Reference" "J5"
 			(at 45.72 71.1199 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11698,6 +12570,8 @@
 		)
 		(property "Value" "Ext.BME280"
 			(at 45.72 73.6599 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11708,6 +12582,8 @@
 		(property "Footprint" "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
 			(at 43.18 71.12 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11717,6 +12593,8 @@
 		(property "Datasheet" ""
 			(at 43.18 71.12 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11726,6 +12604,8 @@
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 43.18 71.12 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11735,6 +12615,8 @@
 		(property "JLCPCB Part #" "C51940130"
 			(at 43.18 71.12 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11775,6 +12657,8 @@
 		(property "Reference" "#PWR019"
 			(at 35.56 80.01 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11783,6 +12667,8 @@
 		)
 		(property "Value" "Earth"
 			(at 35.56 82.296 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11792,6 +12678,8 @@
 		(property "Footprint" ""
 			(at 35.56 86.36 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11801,6 +12689,8 @@
 		(property "Datasheet" ""
 			(at 35.56 86.36 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11810,6 +12700,8 @@
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
 			(at 35.56 86.36 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11844,6 +12736,8 @@
 		(property "Reference" "#PWR010"
 			(at 242.57 57.15 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11853,6 +12747,8 @@
 		(property "Value" "Earth"
 			(at 242.57 54.61 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11862,6 +12758,8 @@
 		(property "Footprint" ""
 			(at 242.57 50.8 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11871,6 +12769,8 @@
 		(property "Datasheet" ""
 			(at 242.57 50.8 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11880,6 +12780,8 @@
 		(property "Description" ""
 			(at 242.57 50.8 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11912,6 +12814,8 @@
 		(property "Reference" "#PWR014"
 			(at 210.82 57.15 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11920,6 +12824,8 @@
 		)
 		(property "Value" "Earth"
 			(at 210.82 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11929,6 +12835,8 @@
 		(property "Footprint" ""
 			(at 210.82 50.8 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11938,6 +12846,8 @@
 		(property "Datasheet" ""
 			(at 210.82 50.8 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11947,6 +12857,8 @@
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
 			(at 210.82 50.8 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11981,6 +12893,8 @@
 		(property "Reference" "#PWR013"
 			(at 269.24 72.39 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11990,6 +12904,8 @@
 		(property "Value" "Earth"
 			(at 269.24 69.85 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11999,6 +12915,8 @@
 		(property "Footprint" ""
 			(at 269.24 66.04 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12008,6 +12926,8 @@
 		(property "Datasheet" ""
 			(at 269.24 66.04 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12017,6 +12937,8 @@
 		(property "Description" ""
 			(at 269.24 66.04 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12048,6 +12970,8 @@
 		(uuid "a266a81a-8dce-4ae2-a454-b23001decdd2")
 		(property "Reference" "J6"
 			(at 276.86 44.4499 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12057,6 +12981,8 @@
 		)
 		(property "Value" "TinySPI"
 			(at 276.86 46.9899 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12067,6 +12993,8 @@
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical"
 			(at 274.32 45.72 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12076,6 +13004,8 @@
 		(property "Datasheet" ""
 			(at 274.32 45.72 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12085,6 +13015,8 @@
 		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 274.32 45.72 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12094,6 +13026,8 @@
 		(property "JLCPCB Part #" ""
 			(at 274.32 45.72 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12138,6 +13072,8 @@
 		(property "Reference" "#PWR026"
 			(at 27.94 114.3 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12146,6 +13082,8 @@
 		)
 		(property "Value" "GNDA"
 			(at 27.94 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12155,6 +13093,8 @@
 		(property "Footprint" ""
 			(at 27.94 107.95 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12164,6 +13104,8 @@
 		(property "Datasheet" ""
 			(at 27.94 107.95 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12173,6 +13115,8 @@
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
 			(at 27.94 107.95 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12204,6 +13148,8 @@
 		(property "Reference" "#PWR024"
 			(at 214.63 83.82 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12212,6 +13158,8 @@
 		)
 		(property "Value" "Earth"
 			(at 214.63 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12221,6 +13169,8 @@
 		(property "Footprint" ""
 			(at 214.63 77.47 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12230,6 +13180,8 @@
 		(property "Datasheet" ""
 			(at 214.63 77.47 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12239,6 +13191,8 @@
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
 			(at 214.63 77.47 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12271,6 +13225,8 @@
 		(property "Reference" "#PWR020"
 			(at 39.37 88.9 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12279,6 +13235,8 @@
 		)
 		(property "Value" "+3.3V"
 			(at 26.924 88.9 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12289,6 +13247,8 @@
 		(property "Footprint" ""
 			(at 35.56 88.9 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12298,6 +13258,8 @@
 		(property "Datasheet" ""
 			(at 35.56 88.9 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12307,6 +13269,8 @@
 		(property "Description" ""
 			(at 35.56 88.9 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12338,6 +13302,8 @@
 		(uuid "b087f576-0b9d-46ca-b2c3-ba0dec7c8661")
 		(property "Reference" "R3"
 			(at 203.2 63.4999 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12347,6 +13313,8 @@
 		)
 		(property "Value" "1kR"
 			(at 203.2 66.0399 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12357,6 +13325,8 @@
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 201.676 65.024 90)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12366,6 +13336,8 @@
 		(property "Datasheet" ""
 			(at 200.66 64.77 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12375,6 +13347,8 @@
 		(property "Description" "Resistor, US symbol"
 			(at 200.66 64.77 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12384,6 +13358,8 @@
 		(property "JLCPCB Part #" "C11702"
 			(at 200.66 64.77 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12418,6 +13394,8 @@
 		(property "Reference" "#PWR027"
 			(at 24.13 74.93 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12426,6 +13404,8 @@
 		)
 		(property "Value" "Earth"
 			(at 24.13 72.644 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12435,6 +13415,8 @@
 		(property "Footprint" ""
 			(at 24.13 68.58 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12444,6 +13426,8 @@
 		(property "Datasheet" ""
 			(at 24.13 68.58 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12453,6 +13437,8 @@
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
 			(at 24.13 68.58 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12484,6 +13470,8 @@
 		(uuid "b4f4948b-1db0-4708-9200-895dc13eb4af")
 		(property "Reference" "J3"
 			(at 254 20.3199 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12493,6 +13481,8 @@
 		)
 		(property "Value" "TinyI2C"
 			(at 254 22.8599 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12503,6 +13493,8 @@
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
 			(at 251.46 20.32 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12512,6 +13504,8 @@
 		(property "Datasheet" ""
 			(at 251.46 20.32 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12521,6 +13515,8 @@
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 251.46 20.32 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12530,6 +13526,8 @@
 		(property "JLCPCB Part #" ""
 			(at 251.46 20.32 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12571,6 +13569,8 @@
 		(property "Reference" "#PWR036"
 			(at 91.44 85.09 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12579,6 +13579,8 @@
 		)
 		(property "Value" "+3.3V"
 			(at 92.202 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12589,6 +13591,8 @@
 		(property "Footprint" ""
 			(at 91.44 81.28 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12598,6 +13602,8 @@
 		(property "Datasheet" ""
 			(at 91.44 81.28 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12607,6 +13613,8 @@
 		(property "Description" ""
 			(at 91.44 81.28 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12639,6 +13647,8 @@
 		(property "Reference" "#PWR047"
 			(at 85.09 105.41 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12647,6 +13657,8 @@
 		)
 		(property "Value" "Earth"
 			(at 85.09 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12656,6 +13668,8 @@
 		(property "Footprint" ""
 			(at 85.09 99.06 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12665,6 +13679,8 @@
 		(property "Datasheet" ""
 			(at 85.09 99.06 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12674,6 +13690,8 @@
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
 			(at 85.09 99.06 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12706,6 +13724,8 @@
 		(property "Reference" "#PWR011"
 			(at 245.11 49.53 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12714,6 +13734,8 @@
 		)
 		(property "Value" "+3.3V"
 			(at 244.094 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12724,6 +13746,8 @@
 		(property "Footprint" ""
 			(at 245.11 53.34 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12733,6 +13757,8 @@
 		(property "Datasheet" ""
 			(at 245.11 53.34 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12742,6 +13768,8 @@
 		(property "Description" ""
 			(at 245.11 53.34 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12773,6 +13801,8 @@
 		(uuid "c29d69bb-c7b9-45a3-b11e-26153fce7439")
 		(property "Reference" "L1"
 			(at 54.61 41.9099 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12782,6 +13812,8 @@
 		)
 		(property "Value" "1uH"
 			(at 54.61 44.4499 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12792,6 +13824,8 @@
 		(property "Footprint" "Inductor_Extended:IND_SRP4020FA-1R0M"
 			(at 53.34 43.18 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12801,6 +13835,8 @@
 		(property "Datasheet" ""
 			(at 53.34 43.18 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12810,6 +13846,8 @@
 		(property "Description" "Inductor"
 			(at 53.34 43.18 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12819,6 +13857,8 @@
 		(property "JLCPCB Part #" "C842935"
 			(at 53.34 43.18 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12854,6 +13894,8 @@
 		(property "Reference" "#PWR042"
 			(at 77.47 67.31 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12862,6 +13904,8 @@
 		)
 		(property "Value" "+3.3V"
 			(at 65.024 67.31 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12872,6 +13916,8 @@
 		(property "Footprint" ""
 			(at 73.66 67.31 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12881,6 +13927,8 @@
 		(property "Datasheet" ""
 			(at 73.66 67.31 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12890,6 +13938,8 @@
 		(property "Description" ""
 			(at 73.66 67.31 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12922,6 +13972,8 @@
 		(property "Reference" "#PWR030"
 			(at 44.45 31.75 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12930,6 +13982,8 @@
 		)
 		(property "Value" "+BATT"
 			(at 36.83 26.924 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12940,6 +13994,8 @@
 		(property "Footprint" ""
 			(at 44.45 27.94 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12949,6 +14005,8 @@
 		(property "Datasheet" ""
 			(at 44.45 27.94 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12958,6 +14016,8 @@
 		(property "Description" ""
 			(at 44.45 27.94 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12989,6 +14049,8 @@
 		(uuid "c63352e2-90fc-4988-9e12-4ad7efbf36c2")
 		(property "Reference" "J16"
 			(at 78.74 116.8399 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12998,6 +14060,8 @@
 		)
 		(property "Value" "3v3 IO"
 			(at 78.74 119.3799 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13008,6 +14072,8 @@
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x15_P2.54mm_Vertical"
 			(at 76.2 118.11 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13017,6 +14083,8 @@
 		(property "Datasheet" ""
 			(at 76.2 118.11 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13026,6 +14094,8 @@
 		(property "Description" "Generic connector, single row, 01x15, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 76.2 118.11 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13035,6 +14105,8 @@
 		(property "JLCPCB Part #" ""
 			(at 76.2 118.11 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13108,6 +14180,8 @@
 		(uuid "c6712e94-6329-469a-9bd3-9b88ac2c3ad3")
 		(property "Reference" "C9"
 			(at 119.38 30.4799 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13117,6 +14191,8 @@
 		)
 		(property "Value" "22uF"
 			(at 119.38 33.0199 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13127,6 +14203,8 @@
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 116.5352 35.56 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13136,6 +14214,8 @@
 		(property "Datasheet" ""
 			(at 115.57 31.75 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13145,6 +14225,8 @@
 		(property "Description" "Unpolarized capacitor"
 			(at 115.57 31.75 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13154,6 +14236,8 @@
 		(property "JLCPCB Part #" "C59461"
 			(at 115.57 31.75 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13189,6 +14273,8 @@
 		(property "Reference" "#PWR046"
 			(at 101.6 142.24 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13197,6 +14283,8 @@
 		)
 		(property "Value" "GNDA"
 			(at 101.6 140.97 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13206,6 +14294,8 @@
 		(property "Footprint" ""
 			(at 101.6 135.89 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13215,6 +14305,8 @@
 		(property "Datasheet" ""
 			(at 101.6 135.89 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13224,6 +14316,8 @@
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
 			(at 101.6 135.89 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13255,6 +14349,8 @@
 		(uuid "d3abe828-ffd0-4064-ba8a-6d4200400fe6")
 		(property "Reference" "J7"
 			(at 254 49.5299 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13264,6 +14360,8 @@
 		)
 		(property "Value" "TinyPwr"
 			(at 254 52.0699 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13274,6 +14372,8 @@
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
 			(at 251.46 50.8 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13283,6 +14383,8 @@
 		(property "Datasheet" ""
 			(at 251.46 50.8 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13292,6 +14394,8 @@
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 251.46 50.8 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13301,6 +14405,8 @@
 		(property "JLCPCB Part #" ""
 			(at 251.46 50.8 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13338,6 +14444,8 @@
 		(property "Reference" "#PWR038"
 			(at 73.66 76.2 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13346,6 +14454,8 @@
 		)
 		(property "Value" "Earth"
 			(at 69.088 71.374 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13355,6 +14465,8 @@
 		(property "Footprint" ""
 			(at 73.66 69.85 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13364,6 +14476,8 @@
 		(property "Datasheet" ""
 			(at 73.66 69.85 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13373,6 +14487,8 @@
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
 			(at 73.66 69.85 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13406,6 +14522,8 @@
 		(property "Reference" "#PWR05"
 			(at 261.62 40.64 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13415,6 +14533,8 @@
 		(property "Value" "Earth"
 			(at 261.62 38.1 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13424,6 +14544,8 @@
 		(property "Footprint" ""
 			(at 261.62 34.29 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13433,6 +14555,8 @@
 		(property "Datasheet" ""
 			(at 261.62 34.29 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13442,6 +14566,8 @@
 		(property "Description" ""
 			(at 261.62 34.29 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13473,6 +14599,8 @@
 		(uuid "db72ea26-207c-4908-872d-a8e3478c5deb")
 		(property "Reference" "J10"
 			(at 45.72 91.4399 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13482,6 +14610,8 @@
 		)
 		(property "Value" "Ext.IMU"
 			(at 45.72 93.9799 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13492,6 +14622,8 @@
 		(property "Footprint" "Connector_JST:JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal"
 			(at 43.18 91.44 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13501,6 +14633,8 @@
 		(property "Datasheet" ""
 			(at 43.18 91.44 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13510,6 +14644,8 @@
 		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 43.18 91.44 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13519,6 +14655,8 @@
 		(property "JLCPCB Part #" "C160405"
 			(at 43.18 91.44 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13564,6 +14702,8 @@
 		(uuid "de074ae3-f8a8-4649-a961-53cb464a20c4")
 		(property "Reference" "C7"
 			(at 93.218 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13573,6 +14713,8 @@
 		)
 		(property "Value" "22uF"
 			(at 91.186 33.02 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13583,6 +14725,8 @@
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 100.0252 35.56 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13592,6 +14736,8 @@
 		(property "Datasheet" ""
 			(at 99.06 31.75 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13601,6 +14747,8 @@
 		(property "Description" "Unpolarized capacitor"
 			(at 99.06 31.75 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13610,6 +14758,8 @@
 		(property "JLCPCB Part #" "C59461"
 			(at 99.06 31.75 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13644,6 +14794,8 @@
 		(uuid "e06b11ed-03d8-49e5-9b2c-fc5bf50c3773")
 		(property "Reference" "R5"
 			(at 217.17 63.4999 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13653,6 +14805,8 @@
 		)
 		(property "Value" "1kR"
 			(at 217.17 66.0399 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13663,6 +14817,8 @@
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 215.646 65.024 90)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13672,6 +14828,8 @@
 		(property "Datasheet" ""
 			(at 214.63 64.77 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13681,6 +14839,8 @@
 		(property "Description" "Resistor, US symbol"
 			(at 214.63 64.77 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13690,6 +14850,8 @@
 		(property "JLCPCB Part #" "C11702"
 			(at 214.63 64.77 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13724,6 +14886,8 @@
 		(uuid "e1e6a56b-9841-46de-bfcf-23ddafabc22e")
 		(property "Reference" "J12"
 			(at 78.74 83.8201 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13733,6 +14897,8 @@
 		)
 		(property "Value" "Int.OLED"
 			(at 78.74 81.2801 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13743,6 +14909,8 @@
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 81.28 83.82 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13752,6 +14920,8 @@
 		(property "Datasheet" ""
 			(at 81.28 83.82 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13761,6 +14931,8 @@
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 81.28 83.82 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13770,6 +14942,8 @@
 		(property "JLCPCB Part #" ""
 			(at 81.28 83.82 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13811,6 +14985,8 @@
 		(property "Reference" "#PWR03"
 			(at 248.92 17.78 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13819,6 +14995,8 @@
 		)
 		(property "Value" "+3.3V"
 			(at 235.712 17.78 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13829,6 +15007,8 @@
 		(property "Footprint" ""
 			(at 245.11 17.78 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13838,6 +15018,8 @@
 		(property "Datasheet" ""
 			(at 245.11 17.78 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13847,6 +15029,8 @@
 		(property "Description" ""
 			(at 245.11 17.78 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13877,6 +15061,8 @@
 		(uuid "e50d1ba5-2d44-46dc-98dd-e2379e5045e5")
 		(property "Reference" "C6"
 			(at 39.878 29.464 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13886,6 +15072,8 @@
 		)
 		(property "Value" "10uF"
 			(at 37.592 32.004 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13896,6 +15084,8 @@
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 44.45 30.48 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13905,6 +15095,8 @@
 		(property "Datasheet" ""
 			(at 44.45 30.48 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13914,6 +15106,8 @@
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 44.45 30.48 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13923,6 +15117,8 @@
 		(property "JLCPCB Part #" "C15525"
 			(at 44.45 30.48 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13958,6 +15154,8 @@
 		(property "Reference" "#PWR029"
 			(at 35.56 128.27 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13966,6 +15164,8 @@
 		)
 		(property "Value" "+BATT"
 			(at 28.448 122.936 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13976,6 +15176,8 @@
 		(property "Footprint" ""
 			(at 35.56 124.46 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13985,6 +15187,8 @@
 		(property "Datasheet" ""
 			(at 35.56 124.46 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13994,6 +15198,8 @@
 		(property "Description" ""
 			(at 35.56 124.46 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14025,6 +15231,8 @@
 		(uuid "ebf5c90c-7f73-48e0-90de-b5f6728d3e2e")
 		(property "Reference" "R4"
 			(at 203.2 71.1199 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14034,6 +15242,8 @@
 		)
 		(property "Value" "2kR"
 			(at 203.2 73.6599 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14044,6 +15254,8 @@
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 201.676 72.644 90)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14053,6 +15265,8 @@
 		(property "Datasheet" ""
 			(at 200.66 72.39 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14062,6 +15276,8 @@
 		(property "Description" "Resistor, US symbol"
 			(at 200.66 72.39 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14071,6 +15287,8 @@
 		(property "JLCPCB Part #" "C4109"
 			(at 200.66 72.39 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14105,6 +15323,8 @@
 		(property "Reference" "#PWR09"
 			(at 245.11 52.07 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14113,6 +15333,8 @@
 		)
 		(property "Value" "+5V"
 			(at 242.062 47.244 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14122,6 +15344,8 @@
 		(property "Footprint" ""
 			(at 245.11 48.26 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14131,6 +15355,8 @@
 		(property "Datasheet" ""
 			(at 245.11 48.26 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14140,6 +15366,8 @@
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 245.11 48.26 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14172,6 +15400,8 @@
 		(property "Reference" "#PWR017"
 			(at 163.83 29.21 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14180,6 +15410,8 @@
 		)
 		(property "Value" "+5V"
 			(at 163.83 20.32 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14189,6 +15421,8 @@
 		(property "Footprint" ""
 			(at 163.83 25.4 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14198,6 +15432,8 @@
 		(property "Datasheet" ""
 			(at 163.83 25.4 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14207,6 +15443,8 @@
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 163.83 25.4 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14238,6 +15476,8 @@
 		(uuid "f16998d4-f2ef-4684-adb4-9c98d1eefb72")
 		(property "Reference" "J1"
 			(at 259.715 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14246,6 +15486,8 @@
 		)
 		(property "Value" "Micro_SD_Card"
 			(at 259.715 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14255,6 +15497,8 @@
 		(property "Footprint" "Connector_Card:microSD_HC_Hirose_DM3D-SF"
 			(at 288.29 87.63 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14264,6 +15508,8 @@
 		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/693072010801.pdf"
 			(at 259.08 95.25 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14273,6 +15519,8 @@
 		(property "Description" "Micro SD Card Socket"
 			(at 259.08 95.25 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14282,6 +15530,8 @@
 		(property "JLCPCB Part #" "C719027"
 			(at 259.08 95.25 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14337,6 +15587,8 @@
 		(property "Reference" "#PWR01"
 			(at 224.79 99.06 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14345,6 +15597,8 @@
 		)
 		(property "Value" "+3.3V"
 			(at 220.726 93.726 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14354,6 +15608,8 @@
 		(property "Footprint" ""
 			(at 224.79 95.25 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14363,6 +15619,8 @@
 		(property "Datasheet" ""
 			(at 224.79 95.25 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14372,6 +15630,8 @@
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 224.79 95.25 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14403,6 +15663,8 @@
 		(uuid "f4a9262f-fef4-4d5c-a282-2ec1322b604a")
 		(property "Reference" "R6"
 			(at 217.17 71.1199 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14412,6 +15674,8 @@
 		)
 		(property "Value" "2kR"
 			(at 217.17 73.6599 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14422,6 +15686,8 @@
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 215.646 72.644 90)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14431,6 +15697,8 @@
 		(property "Datasheet" ""
 			(at 214.63 72.39 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14440,6 +15708,8 @@
 		(property "Description" "Resistor, US symbol"
 			(at 214.63 72.39 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14449,6 +15719,8 @@
 		(property "JLCPCB Part #" "C4109"
 			(at 214.63 72.39 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14484,6 +15756,8 @@
 		(property "Reference" "#PWR07"
 			(at 271.78 40.64 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14492,6 +15766,8 @@
 		)
 		(property "Value" "+3.3V"
 			(at 262.636 38.608 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14502,6 +15778,8 @@
 		(property "Footprint" ""
 			(at 267.97 40.64 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14511,6 +15789,8 @@
 		(property "Datasheet" ""
 			(at 267.97 40.64 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14520,6 +15800,8 @@
 		(property "Description" ""
 			(at 267.97 40.64 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)

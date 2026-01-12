@@ -1,0 +1,7 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"C1, C2",0402,2,1uF,C52923
+"C5, C6",0402,2,100nF,C1525
+J10,JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal,1,IMU Connection,C160405
+J5,JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal,1,Qwicc,C51940130
+"R1, R2",0402,2,4.7k,C25900
+U1,Bosch_LGA-14_3x2.5mm_P0.5mm,1,ICM-42607-P,C5129967
