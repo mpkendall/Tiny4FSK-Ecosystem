@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20251028)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.99")
+	(generator_version "10.0")
 	(uuid "9e87b686-1764-4884-9dae-32d4ab1eb573")
 	(paper "A4")
 	(lib_symbols
@@ -17,6 +17,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -3.81 0)
@@ -156,6 +157,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -3.81 0)
@@ -290,6 +292,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
 				(at -16.51 15.24 0)
@@ -655,6 +658,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
 				(at 0 22.225 0)
@@ -1024,24 +1028,6 @@
 			)
 			(symbol "USB_C_Receptacle_USB2.0_14P_1_1"
 				(pin passive line
-					(at -7.62 -22.86 90)
-					(length 5.08)
-					(name "SHIELD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "S1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 0 -22.86 90)
 					(length 5.08)
 					(name "GND"
@@ -1052,6 +1038,97 @@
 						)
 					)
 					(number "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 15.24 180)
+					(length 5.08)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 10.16 180)
+					(length 5.08)
+					(name "CC1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -2.54 180)
+					(length 5.08)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 2.54 180)
+					(length 5.08)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 15.24 180)
+					(length 5.08)
+					(hide yes)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1098,62 +1175,6 @@
 					)
 				)
 				(pin passive line
-					(at 0 -22.86 90)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 15.24 180)
-					(length 5.08)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 15.24 180)
-					(length 5.08)
-					(hide yes)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 15.24 15.24 180)
 					(length 5.08)
 					(hide yes)
@@ -1165,43 +1186,6 @@
 						)
 					)
 					(number "B4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 15.24 180)
-					(length 5.08)
-					(hide yes)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 10.16 180)
-					(length 5.08)
-					(name "CC1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1228,16 +1212,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 2.54 180)
+					(at 15.24 -5.08 180)
 					(length 5.08)
-					(name "D-"
+					(name "D+"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "A7"
+					(number "B6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1263,17 +1247,18 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 15.24 -2.54 180)
+				(pin passive line
+					(at 15.24 15.24 180)
 					(length 5.08)
-					(name "D+"
+					(hide yes)
+					(name "VBUS"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "A6"
+					(number "B9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1281,17 +1266,36 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 15.24 -5.08 180)
+				(pin passive line
+					(at 0 -22.86 90)
 					(length 5.08)
-					(name "D+"
+					(hide yes)
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "B6"
+					(number "B12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -22.86 90)
+					(length 5.08)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1310,6 +1314,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
 				(at 0 2.54 0)
@@ -1467,6 +1472,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
 				(at 0 5.08 0)
@@ -1653,6 +1659,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
 				(at 0 5.08 0)
@@ -1868,6 +1875,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
 				(at 0 7.62 0)
@@ -2112,6 +2120,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
 				(at 0 7.62 0)
@@ -2385,6 +2394,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
 				(at 0 12.7 0)
@@ -2745,6 +2755,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
 				(at 0 20.32 0)
@@ -3281,6 +3292,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
 				(at 0.635 2.54 0)
@@ -3436,6 +3448,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
 				(at 0.254 1.778 0)
@@ -3591,6 +3604,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "L"
 				(at -1.27 0 90)
@@ -3768,6 +3782,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
 				(at 0.762 0.508 0)
@@ -3920,6 +3935,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
 				(at 2.54 0 90)
@@ -4110,6 +4126,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -6.35 0)
@@ -4254,6 +4271,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
 				(at -6.35 13.97 0)
@@ -4342,17 +4360,17 @@
 						(type background)
 					)
 				)
-				(pin input line
-					(at -10.16 10.16 0)
+				(pin power_in line
+					(at -2.54 15.24 270)
 					(length 2.54)
-					(name "~{OE}"
+					(name "VCCA"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "11"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4505,24 +4523,6 @@
 					)
 				)
 				(pin power_in line
-					(at -2.54 15.24 270)
-					(length 2.54)
-					(name "VCCA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
 					(at 0 -15.24 90)
 					(length 2.54)
 					(name "GND"
@@ -4533,6 +4533,168 @@
 						)
 					)
 					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 10.16 0)
+					(length 2.54)
+					(name "~{OE}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -10.16 180)
+					(length 2.54)
+					(name "B7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -7.62 180)
+					(length 2.54)
+					(name "B6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -5.08 180)
+					(length 2.54)
+					(name "B5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "B4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "B3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "B2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 7.62 180)
+					(length 2.54)
+					(name "B0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4577,150 +4739,6 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 10.16 7.62 180)
-					(length 2.54)
-					(name "B0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 10.16 5.08 180)
-					(length 2.54)
-					(name "B1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "B2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "B3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 10.16 -2.54 180)
-					(length 2.54)
-					(name "B4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 10.16 -5.08 180)
-					(length 2.54)
-					(name "B5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 10.16 -7.62 180)
-					(length 2.54)
-					(name "B6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 10.16 -10.16 180)
-					(length 2.54)
-					(name "B7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
 			(embedded_fonts no)
 		)
@@ -4728,6 +4746,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
 				(at -7.62 13.97 0)
@@ -4819,6 +4838,24 @@
 				)
 			)
 			(symbol "TPS63060_1_1"
+				(pin input line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "L1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin power_in line
 					(at -10.16 10.16 0)
 					(length 2.54)
@@ -4873,17 +4910,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at -10.16 0 0)
+				(pin output line
+					(at 10.16 -7.62 180)
 					(length 2.54)
-					(name "L1"
+					(name "PG"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4891,17 +4928,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at -10.16 -10.16 0)
+				(pin passive line
+					(at 10.16 -5.08 180)
 					(length 2.54)
-					(name "L2"
+					(name "VAUX"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "10"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4927,17 +4964,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 0 -15.24 90)
+				(pin input line
+					(at 10.16 2.54 180)
 					(length 2.54)
-					(name "PGND"
+					(name "FB"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "11"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4964,16 +5001,16 @@
 					)
 				)
 				(pin input line
-					(at 10.16 2.54 180)
+					(at -10.16 -10.16 0)
 					(length 2.54)
-					(name "FB"
+					(name "L2"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "8"
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4981,35 +5018,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 10.16 -5.08 180)
+				(pin power_in line
+					(at 0 -15.24 90)
 					(length 2.54)
-					(name "VAUX"
+					(name "PGND"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 -7.62 180)
-					(length 2.54)
-					(name "PG"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
+					(number "11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5032,6 +5051,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -3.81 0)
@@ -5170,6 +5190,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -3.81 0)
@@ -5308,6 +5329,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -6.35 0)
@@ -5458,6 +5480,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -6.35 0)
@@ -9113,6 +9136,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01ed7e01-8022-4cd4-a0bd-99064dbcbf5c")
@@ -9189,7 +9213,7 @@
 			(uuid "2b96d761-c898-4e55-afc9-2299b201ff53")
 		)
 		(instances
-			(project ""
+			(project "Tiny4FSKGeneralShield"
 				(path "/9e87b686-1764-4884-9dae-32d4ab1eb573"
 					(reference "C3")
 					(unit 1)
@@ -9205,6 +9229,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0282eff1-315c-499c-bd6d-e93c4b3cdff0")
@@ -9283,6 +9308,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0fe81e34-f190-4136-8fd1-5efa896eb67f")
@@ -9381,6 +9407,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ffd1f3d-848a-4530-95e3-11b49b59ebb1")
@@ -9458,6 +9485,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "204e4257-e568-4ad2-b75a-e6c6da686be0")
@@ -9535,6 +9563,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "217f8ac3-572e-4a3e-ae17-1763faaf7de4")
@@ -9611,7 +9640,7 @@
 			(uuid "58df87a3-398b-4759-a576-d00b22c7727a")
 		)
 		(instances
-			(project ""
+			(project "Tiny4FSKGeneralShield"
 				(path "/9e87b686-1764-4884-9dae-32d4ab1eb573"
 					(reference "J9")
 					(unit 1)
@@ -9627,6 +9656,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21c691ef-6347-4b8e-9a4f-06a70f324c7c")
@@ -9704,6 +9734,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "2462d188-ec99-4e42-aaea-be3bed0d9599")
 		(property "Reference" "#PWR037"
@@ -9780,6 +9811,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25725f18-93ee-4140-8ce6-ee1a7f6c7afa")
@@ -9841,7 +9873,7 @@
 			(uuid "a4199a54-0b83-4573-995e-22d9649e6195")
 		)
 		(instances
-			(project ""
+			(project "Tiny4FSKGeneralShield"
 				(path "/9e87b686-1764-4884-9dae-32d4ab1eb573"
 					(reference "#PWR02")
 					(unit 1)
@@ -9857,6 +9889,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "29ed47fd-5803-43f2-ae45-f56e4c43b945")
@@ -9934,6 +9967,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "2ca904af-e12a-45a8-b7cb-3373283fcf7f")
 		(property "Reference" "#PWR044"
@@ -10010,6 +10044,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e6b49e6-1161-4ce5-bb1e-d2f015c1cfa5")
@@ -10104,6 +10139,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f321df7-614c-42cd-a0df-703f92ec7d7d")
@@ -10182,6 +10218,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "34956144-5ef6-429e-8a31-bdebda7763a6")
 		(property "Reference" "#PWR033"
@@ -10259,6 +10296,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "394e7895-9e81-4913-8f22-97ce8ac743ab")
 		(property "Reference" "#PWR018"
@@ -10336,6 +10374,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "3c5a542c-f13c-4e3a-a67d-01941b36dc52")
 		(property "Reference" "R7"
@@ -10411,7 +10450,7 @@
 			(uuid "993823d8-2ef4-431e-8da4-f52dee397332")
 		)
 		(instances
-			(project ""
+			(project "Tiny4FSKGeneralShield"
 				(path "/9e87b686-1764-4884-9dae-32d4ab1eb573"
 					(reference "R7")
 					(unit 1)
@@ -10427,6 +10466,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "3e0425f7-848b-458c-b7a6-d063c09c1505")
 		(property "Reference" "C8"
@@ -10518,6 +10558,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "45eab9ba-4bf1-4bcc-87ed-9e378d0c3ee7")
 		(property "Reference" "R9"
@@ -10593,7 +10634,7 @@
 			(uuid "6bebc257-167a-4a12-9c65-eebee3c20c8f")
 		)
 		(instances
-			(project ""
+			(project "Tiny4FSKGeneralShield"
 				(path "/9e87b686-1764-4884-9dae-32d4ab1eb573"
 					(reference "R9")
 					(unit 1)
@@ -10609,6 +10650,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "47775c33-43fd-4e21-a8df-f2b9e92d232a")
 		(property "Reference" "#PWR034"
@@ -10685,6 +10727,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "4f9ac375-f07c-4568-9155-4d6cecd723ac")
 		(property "Reference" "#PWR023"
@@ -10761,6 +10804,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "554c71aa-66c5-480a-a0e5-0bf35b5db008")
@@ -10838,6 +10882,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "568ed974-d16d-4cbe-8320-f085a52beb88")
@@ -10951,7 +10996,7 @@
 			(uuid "793520f8-5b03-4bce-86b7-7e5699dbf342")
 		)
 		(instances
-			(project ""
+			(project "Tiny4FSKGeneralShield"
 				(path "/9e87b686-1764-4884-9dae-32d4ab1eb573"
 					(reference "J2")
 					(unit 1)
@@ -10967,6 +11012,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "601ef52b-0013-4402-b19a-216dad60e3fb")
 		(property "Reference" "#PWR022"
@@ -11043,6 +11089,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "671d40bf-c153-4849-aa42-40de00738d58")
@@ -11156,6 +11203,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "67994050-1a3b-4d37-be92-fee375a7a0e2")
 		(property "Reference" "R1"
@@ -11229,7 +11277,7 @@
 			(uuid "f88c16e1-158d-49bb-afdd-b26ab5d4ddc2")
 		)
 		(instances
-			(project ""
+			(project "Tiny4FSKGeneralShield"
 				(path "/9e87b686-1764-4884-9dae-32d4ab1eb573"
 					(reference "R1")
 					(unit 1)
@@ -11245,6 +11293,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a67a2d9-066f-4897-aa71-b03d4a8c913d")
@@ -11346,7 +11395,7 @@
 			(uuid "d6c39246-1723-45b9-b7df-46f92fd79478")
 		)
 		(instances
-			(project ""
+			(project "Tiny4FSKGeneralShield"
 				(path "/9e87b686-1764-4884-9dae-32d4ab1eb573"
 					(reference "U3")
 					(unit 1)
@@ -11363,6 +11412,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "6a682e35-220c-4bba-a76e-4087bdc214a7")
 		(property "Reference" "#PWR06"
@@ -11440,6 +11490,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71b47c7f-bbd4-4359-8d09-d88423baddfd")
@@ -11537,6 +11588,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7279ef38-05e6-4f9c-928e-a71e53dcb1f1")
@@ -11615,6 +11667,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "74ea9706-2c14-4c8f-bf05-ff42d9681d30")
 		(property "Reference" "U1"
@@ -11747,7 +11800,7 @@
 			(uuid "8e951011-30ec-4f98-a2e3-a21e156f8a08")
 		)
 		(instances
-			(project ""
+			(project "Tiny4FSKGeneralShield"
 				(path "/9e87b686-1764-4884-9dae-32d4ab1eb573"
 					(reference "U1")
 					(unit 1)
@@ -11763,6 +11816,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "759f0593-018e-47b1-94bb-38623ee29ae0")
 		(property "Reference" "#PWR025"
@@ -11839,6 +11893,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c3d353b-1863-4d22-a66f-ed0efd761a44")
@@ -11918,6 +11973,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "812b7082-d95b-431c-879e-c7808ff01350")
@@ -11996,6 +12052,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "84b7dc34-2c82-4216-b1ee-bc783be7a1fb")
@@ -12088,6 +12145,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "84f2be10-3c0a-464f-be35-99f7c0b7a5f0")
@@ -12165,6 +12223,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "852707f8-44e7-4f3f-930a-87ef4b2ba1d4")
@@ -12241,7 +12300,7 @@
 			(uuid "26f5748d-d9b3-41de-8225-d77cd78f0ca2")
 		)
 		(instances
-			(project ""
+			(project "Tiny4FSKGeneralShield"
 				(path "/9e87b686-1764-4884-9dae-32d4ab1eb573"
 					(reference "C4")
 					(unit 1)
@@ -12257,6 +12316,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "885f78eb-2d16-440b-98f0-fccb84d28535")
 		(property "Reference" "R2"
@@ -12347,6 +12407,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "8fe8bc68-0444-47ce-8755-b48bc45dc03d")
 		(property "Reference" "J17"
@@ -12477,6 +12538,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "9102c8a9-d0dd-4eac-b7fd-304c39b9cee3")
 		(property "Reference" "#PWR028"
@@ -12554,6 +12616,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93dd9218-6ee4-4739-b431-09576a2ea0b5")
@@ -12636,7 +12699,7 @@
 			(uuid "8f74ad80-193a-4715-aa9e-11a2bec615e2")
 		)
 		(instances
-			(project ""
+			(project "Tiny4FSKGeneralShield"
 				(path "/9e87b686-1764-4884-9dae-32d4ab1eb573"
 					(reference "J5")
 					(unit 1)
@@ -12652,6 +12715,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "9b14c2bc-6db3-484a-9622-fa5ea5164629")
 		(property "Reference" "#PWR019"
@@ -12730,6 +12794,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c2561ad-1c64-441a-9552-d844a09297b3")
@@ -12808,6 +12873,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9db4d644-8f12-4000-9ac5-6a9b61d2de28")
@@ -12887,6 +12953,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9dfb50e0-6c2b-4c63-a7f1-ce0b2789cb67")
@@ -12965,6 +13032,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a266a81a-8dce-4ae2-a454-b23001decdd2")
@@ -13066,6 +13134,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5a9ebcd-a770-4a2e-8b4a-581ef471c885")
@@ -13127,7 +13196,7 @@
 			(uuid "7d28cb0c-4e5b-491c-81c3-8ce8df3fc992")
 		)
 		(instances
-			(project ""
+			(project "Tiny4FSKGeneralShield"
 				(path "/9e87b686-1764-4884-9dae-32d4ab1eb573"
 					(reference "#PWR026")
 					(unit 1)
@@ -13143,6 +13212,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "a68f21c5-7244-4824-911f-3e6957cb2e0a")
 		(property "Reference" "#PWR024"
@@ -13220,6 +13290,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "b0552f48-1327-4235-8745-63ba6e432ed5")
 		(property "Reference" "#PWR020"
@@ -13297,6 +13368,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b087f576-0b9d-46ca-b2c3-ba0dec7c8661")
@@ -13373,7 +13445,7 @@
 			(uuid "1d70a69c-141e-47f2-9ee3-42a24508a869")
 		)
 		(instances
-			(project ""
+			(project "Tiny4FSKGeneralShield"
 				(path "/9e87b686-1764-4884-9dae-32d4ab1eb573"
 					(reference "R3")
 					(unit 1)
@@ -13389,6 +13461,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "b3709334-138f-4350-80cc-430e55534263")
 		(property "Reference" "#PWR027"
@@ -13465,6 +13538,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4f4948b-1db0-4708-9200-895dc13eb4af")
@@ -13564,6 +13638,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "b67ca047-9123-4ee1-be8a-2cc98ec7f71f")
 		(property "Reference" "#PWR036"
@@ -13641,6 +13716,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "baac8524-960e-4488-ae15-b24d616b4039")
@@ -13719,6 +13795,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "bcab2d77-8223-4446-a4a2-9b46d75562e6")
 		(property "Reference" "#PWR011"
@@ -13796,6 +13873,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c29d69bb-c7b9-45a3-b11e-26153fce7439")
@@ -13872,7 +13950,7 @@
 			(uuid "33b31aed-c456-4dc5-b28f-f84bd2271458")
 		)
 		(instances
-			(project ""
+			(project "Tiny4FSKGeneralShield"
 				(path "/9e87b686-1764-4884-9dae-32d4ab1eb573"
 					(reference "L1")
 					(unit 1)
@@ -13889,6 +13967,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "c4c352f8-8257-4b23-b270-9c7caae8066a")
 		(property "Reference" "#PWR042"
@@ -13967,6 +14046,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "c609be99-0d09-40cf-a1ee-2a8559216100")
 		(property "Reference" "#PWR030"
@@ -14044,6 +14124,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c63352e2-90fc-4988-9e12-4ad7efbf36c2")
@@ -14159,7 +14240,7 @@
 			(uuid "acf1ebac-f747-4ef2-870f-9fe5e468b7c7")
 		)
 		(instances
-			(project ""
+			(project "Tiny4FSKGeneralShield"
 				(path "/9e87b686-1764-4884-9dae-32d4ab1eb573"
 					(reference "J16")
 					(unit 1)
@@ -14175,6 +14256,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6712e94-6329-469a-9bd3-9b88ac2c3ad3")
@@ -14267,6 +14349,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1c13287-516d-4d52-9ca1-b7a5c9913369")
@@ -14344,6 +14427,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3abe828-ffd0-4064-ba8a-6d4200400fe6")
@@ -14439,6 +14523,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "d5c9ca0c-fc13-4f12-815e-bfab40ec94a1")
 		(property "Reference" "#PWR038"
@@ -14516,6 +14601,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d673c59e-dc4e-412c-8e93-cd906a11f90f")
@@ -14594,6 +14680,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db72ea26-207c-4908-872d-a8e3478c5deb")
@@ -14698,6 +14785,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "de074ae3-f8a8-4649-a961-53cb464a20c4")
 		(property "Reference" "C7"
@@ -14789,6 +14877,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e06b11ed-03d8-49e5-9b2c-fc5bf50c3773")
@@ -14881,6 +14970,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e1e6a56b-9841-46de-bfcf-23ddafabc22e")
@@ -14980,6 +15070,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "e3eb0a73-488f-4816-adad-a5a424755bcd")
 		(property "Reference" "#PWR03"
@@ -15057,6 +15148,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "e50d1ba5-2d44-46dc-98dd-e2379e5045e5")
 		(property "Reference" "C6"
@@ -15149,6 +15241,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "e73a0732-a455-46ad-8043-d3b374f1f2ad")
 		(property "Reference" "#PWR029"
@@ -15226,6 +15319,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ebf5c90c-7f73-48e0-90de-b5f6728d3e2e")
@@ -15318,6 +15412,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "ec27d9b9-854c-4795-8df2-4712e3b3938a")
 		(property "Reference" "#PWR09"
@@ -15394,6 +15489,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f08fa0e6-d828-496b-aa67-4b3e1a05bbbe")
@@ -15455,7 +15551,7 @@
 			(uuid "9bc4eeff-2b19-48a0-a136-aaa8048c2d1e")
 		)
 		(instances
-			(project ""
+			(project "Tiny4FSKGeneralShield"
 				(path "/9e87b686-1764-4884-9dae-32d4ab1eb573"
 					(reference "#PWR017")
 					(unit 1)
@@ -15471,6 +15567,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f16998d4-f2ef-4684-adb4-9c98d1eefb72")
@@ -15566,7 +15663,7 @@
 			(uuid "ac376266-d8d6-42f3-8b36-a8e2fbb006f0")
 		)
 		(instances
-			(project ""
+			(project "Tiny4FSKGeneralShield"
 				(path "/9e87b686-1764-4884-9dae-32d4ab1eb573"
 					(reference "J1")
 					(unit 1)
@@ -15582,6 +15679,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "f30e82e8-ba13-44f4-9849-bb19aab4a342")
 		(property "Reference" "#PWR01"
@@ -15642,7 +15740,7 @@
 			(uuid "7550e397-da12-4c3d-88f0-91c347128e8d")
 		)
 		(instances
-			(project ""
+			(project "Tiny4FSKGeneralShield"
 				(path "/9e87b686-1764-4884-9dae-32d4ab1eb573"
 					(reference "#PWR01")
 					(unit 1)
@@ -15658,6 +15756,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4a9262f-fef4-4d5c-a282-2ec1322b604a")
@@ -15751,6 +15850,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "fea3165c-e11e-4101-a396-45f83ab66e2a")
 		(property "Reference" "#PWR07"
