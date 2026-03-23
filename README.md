@@ -16,4 +16,4 @@ To get started, solder female headers to the 2.54mm pins on the back side of the
 
 Insert the shield board onto the Tiny4FSK's headers as shown. No code changes are required to continue with SD card logging and screen initialization.
 
-![Boards stacked](/Media/headers.png)
+![Boards stacked](Media\TinyShield_Mounted_Horiz.png)
